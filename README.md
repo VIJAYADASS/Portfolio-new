@@ -1,8 +1,7 @@
 # Vijayadass M – Portfolio Website
 
-A modern full-stack portfolio website built using React, Node.js, Express, and MongoDB.
+A modern full-stack portfolio website built using Next.js, Node.js, Express, and MongoDB.
 This project showcases my frontend development skills, responsive UI design, backend integration, and deployment workflow.
-
 ## 🚀 Live Demo
 
 ### Frontend
@@ -17,10 +16,9 @@ https://portfolio-new-qem7.onrender.com
 
 ### Frontend
 
-* React.js
+* Next.js
 * Tailwind CSS
 * JavaScript
-* Framer Motion
 * Lucide React
 
 ### Backend
@@ -51,6 +49,12 @@ https://portfolio-new-qem7.onrender.com
 * Email sending functionality
 * Project showcase section
 * Skills & education section
+
+# API Endpoint
+Contact Form
+POST /api/contact
+
+* Stores user messages in MongoDB and sends email notifications.
 
 ## 📦 Installation
 
