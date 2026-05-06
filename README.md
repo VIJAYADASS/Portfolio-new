@@ -1,73 +1,113 @@
-# React + TypeScript + Vite
+# Vijayadass M – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack portfolio website built using React, Node.js, Express, and MongoDB.
+This project showcases my frontend development skills, responsive UI design, backend integration, and deployment workflow.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Frontend
 
-## React Compiler
+https://vijayadass-portfolio.netlify.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend API
 
-## Expanding the ESLint configuration
+https://portfolio-new-qem7.onrender.com
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Frontend
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* React.js
+* Tailwind CSS
+* JavaScript
+* Framer Motion
+* Lucide React
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB Atlas
+* Mongoose
+
+### Deployment
+
+* Netlify (Frontend)
+* Render (Backend)
+
+
+## ✨ Features
+
+* Responsive portfolio website
+* Modern UI/UX design
+* Dark mode support
+* Smooth scrolling sections
+* Mobile-responsive navbar
+* Contact form integration
+* MongoDB database storage
+* Email sending functionality
+* Project showcase section
+* Skills & education section
+
+## 📦 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Install Frontend Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd frontend
+npm install
 ```
+
+### Install Backend Dependencies
+
+```bash
+cd backend
+npm install
+```
+
+---
+
+## ▶️ Run Project
+
+### Frontend
+
+```bash
+npm run dev
+```
+
+### Backend
+
+```bash
+node server.js
+```
+
+---
+
+## 🌐 API Endpoint
+
+### Contact Form
+
+```bash
+POST /api/contact
+```
+
+Stores user messages in MongoDB and sends email notifications.
+
+---
+
+## 📧 Contact
+
+### Vijayadass M
+
+* GitHub: https://github.com/your-github
+* LinkedIn: https://linkedin.com/in/your-linkedin
+* Email: [vijayadass0702@gmail.com](mailto:vijayadass0702@gmail.com)
