@@ -50,12 +50,6 @@ https://portfolio-new-qem7.onrender.com
 * Project showcase section
 * Skills & education section
 
-# API Endpoint
-Contact Form
-POST /api/contact
-
-* Stores user messages in MongoDB and sends email notifications.
-
 ## 📦 Installation
 
 ### Clone Repository
