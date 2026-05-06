@@ -82,7 +82,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center order-1 lg:order-2">
+        <div className="flex justify-center items-center order-1 lg:order-2 mt-6 md:mt-0">
           <div className="p-3 rounded-2xl bg-[#F3D7B6] dark:bg-black/20">
             <img
               src="/p1.png"
