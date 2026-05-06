@@ -8,7 +8,7 @@ const Contact = require("./models/Contact");
 const app = express();
 
 app.use(cors({
-  origin: "https://portfolio-fsd.netlify.app/",
+  origin: "https://vijayadass-portfolio.netlify.app/",
   methods: ["GET", "POST", "OPTIONS"],
   credentials: true,
 }));
